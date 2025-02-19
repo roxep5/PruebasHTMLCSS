@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 2%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.links{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between; /* Espacio entre la galería y el botón de WhatsApp */
+    position: relative;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.image p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.image {
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+footer {
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.footer-content {text-align: start;
+    padding-left: 40px;
+}
+
+.footer-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+/* Estilo para el botón de WhatsApp */
+.whatsapp-btn {
+    position: sticky;
+    top: 40px;
+    right: 0; /* Pegado a la derecha */
+    z-index: 10; /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.whatsapp-btn img {
+    width: 50px;
+    height: 50px;
+}
